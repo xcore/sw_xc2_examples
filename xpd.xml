@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xpkg>
+    <description>Code examples for the XC-2 development board.</description>
+    <doc>http://www.xmos.com/published/xc2-examples</doc>
+    <icon>icon/xc2.png</icon>
+    <name>sw_xc2_examples</name>
+    <template name = "LED Example">
+        <board>XC-2</board>
+        <description>A project that illuminate a LED.</description>
+        <src file="src/main.xc">sw_xc2_examples/app_xc2_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Flashing LEDs  Example">
+        <board>XC-2</board>
+        <description>A project that flashes LEDs.</description>
+        <src file="src/main.xc">sw_xc2_examples/app_xc2_flashing_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name="Multicore Flashing LED Example">
+        <board>XC-2</board>
+        <description>A project that flashes LEDs on multiple cores.</description>
+        <src file="src/main.xc">sw_xc2_examples/app_xc2_multicore_flashing_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name="Uart Example">
+        <board>XC-2</board>
+        <description>A project based on a simple UART example.</description>
+        <src file="src/main.xc">sw_xc2_examples/app_xc2_uart</src>
+    </template>
+    <template name="Token Ring Example">
+        <board>XC-2</board>
+        <description>Multicore sequential flashing LED program for the XC-2 board using tokens.</description>
+        <src file="src/main.xc">sw_xc2_examples/app_xc2_tokenring</src>
+    </template>
+    <template name="Token Ring Controller Example">
+        <board>XC-2</board>
+        <description>Multicore sequential flashing LED program for the XC-2 board using tokens.</description>
+        <src file="src/main.xc">sw_xc2_examples/app_xc2_tokenring_controller</src>
+    </template>
+</xpkg>
