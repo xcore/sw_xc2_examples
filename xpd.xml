@@ -11,7 +11,7 @@
         <!-- Empty dependency list since app stands alone -->
         <dependencies></dependencies>
     </template>
-    <template name = "Flashing LEDs  Example">
+    <template name = "Flashing LEDs Example">
         <board>XC-2</board>
         <description>A project that flashes LEDs.</description>
         <src file="src/main.xc">sw_xc2_examples/app_xc2_flashing_led</src>
@@ -27,7 +27,7 @@
     </template>
     <template name="Uart Example">
         <board>XC-2</board>
-        <description>A project based on a simple UART example.</description>
+        <description>A project based on a simple Uart example.</description>
         <src file="src/main.xc">sw_xc2_examples/app_xc2_uart</src>
     </template>
     <template name="Token Ring Example">
