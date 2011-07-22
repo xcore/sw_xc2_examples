@@ -10,6 +10,7 @@
     <location>ssh://git@github.com:22/xcore/sw_xc2_examples.git</location>
     <name>sw_xc2_examples</name>
     <maintainer>davelxmos</maintainer>
+    <release parenthash = "ad2dc0d500c2ff5e0e73ec480e657f7a7222816d" version = "1.0.0beta0"></release>
     <scope>example</scope>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
