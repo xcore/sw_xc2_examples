@@ -31,7 +31,7 @@
     <template name = "Multicore Flashing LED Example">
         <board>XC-2</board>
         <description>A project that flashes LEDs on multiple cores.</description>
-        <src file = "src/main.xc">sw_xc2_examples/app_xc2_multicore_flashing_led</src>
+        <src file = "src/main.xc">sw_xc2_examples/app_xc2_multicore_flashing_led_1</src>
         <!-- Empty dependency list since app stands alone -->
         <dependencies></dependencies>
     </template>
