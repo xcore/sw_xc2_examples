@@ -15,7 +15,7 @@ XCC_FLAGS += -Xmapper --map -Xmapper map.out -DMDNS_NETBIOS=1 -O3 -save-temps -g
 
 EXCLUDE_FILES = httpd-fsdata.c app.c fsdata.c fsdata_old.c
 
-USED_MODULES = module_xtcp.2v0 module_zeroconf.1v0 module_ethernet.1v4 module_locks.1v1
+USED_MODULES = module_xtcp module_zeroconf module_ethernet module_locks
 
 USE_XTCP_MAC_CUSTOM_FILTER = 1
 

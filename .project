@@ -2,7 +2,7 @@
 <projectDescription>
 	<name>sw_xc2_examples</name>
 	<comment></comment>
-	<projects>
+	<projects><project>sc_xtcp</project> <project>sc_ethernet</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
