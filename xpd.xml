@@ -5,7 +5,7 @@
         <uri>ssh://git@github.com/xcore/xcommon</uri>
     </dependency>
     <dependency repo = "sc_xtcp">
-        <githash>bb7f38b46895aa5d9f79db81b759aa365311e989</githash>
+        <githash>cf96150b4fad5dd8addbeb6a907b0b613b34cf7e</githash>
         <uri>ssh://git@github.com/davelxmos/sc_xtcp</uri>
         <version>2.0.1rc0</version>
     </dependency>
