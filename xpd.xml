@@ -15,17 +15,17 @@
         <version>2.0.2</version>
     </dependency>
     <description>Code examples for the XC-2 development board.</description>
-    <doc>http://www.xmos.com/published/xc2-examples</doc>
     <icon>icon/xc2.png</icon>
     <location>ssh://git@github.com:22/xcore/sw_xc2_examples.git</location>
     <name>sw_xc2_examples</name>
     <maintainer>davelxmos</maintainer>
     <release parenthash = "ad2dc0d500c2ff5e0e73ec480e657f7a7222816d" version = "1.0.0beta0" githash = "19bb792c49b847e492052377ab80d027cd05427d"></release>
     <release parenthash = "8f26471dc1a5f2161a075768845253fe9d32a767" version = "1.0.0beta1" githash = "d7486c66be199b3d09edb7103996ad501ba78c14"></release>
-    <release parenthash = "97e6e25f7ba7ff446bf91e56d0beb9766897ea98" version = "1.0.0rc0"></release>
+    <release parenthash = "97e6e25f7ba7ff446bf91e56d0beb9766897ea98" version = "1.0.0rc0" githash = "416b8eb0cafaaa7f0baecbd3c47616df55f215db"></release>
     <scope>example</scope>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
+    <doc>http://www.xmos.com/published/xc2-examples</doc>
     <template name = "LED Example">
         <board>XC-2</board>
         <description>A project that illuminate a LED.</description>
@@ -51,15 +51,21 @@
         <board>XC-2</board>
         <description>A project based on a simple Uart example.</description>
         <src file = "src/main.xc">sw_xc2_examples/app_xc2_uart</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
     </template>
     <template name = "Token Ring Example">
         <board>XC-2</board>
         <description>Multicore sequential flashing LED program for the XC-2 board using tokens.</description>
         <src file = "src/main.xc">sw_xc2_examples/app_xc2_tokenring</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
     </template>
     <template name = "Token Ring Controller Example">
         <board>XC-2</board>
         <description>Multicore sequential flashing LED program for the XC-2 board using tokens.</description>
         <src file = "src/main.xc">sw_xc2_examples/app_xc2_tokenring_controller</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
     </template>
 </xpd>
