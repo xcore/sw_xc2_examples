@@ -7,11 +7,11 @@ DEMO_SOURCE_DIRS = src \
                    src/httpd \
                    src/httpd/fsdata 
 
-SOURCE_DIRS += $(DEMO_SOURCE_DIRS)
+SOURCE_DIRS = $(DEMO_SOURCE_DIRS)
 
-INCLUDE_DIRS += $(DEMO_SOURCE_DIRS) 
+INCLUDE_DIRS = $(DEMO_SOURCE_DIRS)
 
-XCC_FLAGS += -Xmapper --map -Xmapper map.out -DMDNS_NETBIOS=1 -O3 -save-temps -g -DXC2_FIRMWARE_VERSION=2v0
+XCC_FLAGS = -Xmapper --map -Xmapper map.out -DMDNS_NETBIOS=1 -O3 -save-temps -g -DXC2_FIRMWARE_VERSION=2v0
 
 EXCLUDE_FILES = httpd-fsdata.c app.c fsdata.c fsdata_old.c
 
