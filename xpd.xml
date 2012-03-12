@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <xpd>
     <dependency repo = "xcommon">
-        <githash>3416f530590333980bbe152a9123b16becdb441f</githash>
+        <githash>b7b5be59795a0a4b3fee4aeaff3c8e398bf76d27</githash>
         <uri>ssh://git@github.com/xcore/xcommon</uri>
-        <version>1.0.0rc1</version>
+        <version>1.0.0rc2</version>
     </dependency>
     <dependency repo = "sc_xtcp">
         <githash>cf96150b4fad5dd8addbeb6a907b0b613b34cf7e</githash>
