@@ -6,9 +6,9 @@
         <version>1.0.0rc2</version>
     </dependency>
     <dependency repo = "sc_xtcp">
-        <githash>cf96150b4fad5dd8addbeb6a907b0b613b34cf7e</githash>
+        <githash>7070ef5d716d8948240664402c8bee8a8a4ead41</githash>
         <uri>ssh://git@github.com/davelxmos/sc_xtcp</uri>
-        <version>2.0.1rc0</version>
+        <version>3.0.0rc1</version>
     </dependency>
     <dependency repo = "sc_ethernet">
         <githash>4a4c97eebbd51bd31e7cbc1d1a1c95ea4095429a</githash>
@@ -23,7 +23,7 @@
     <release parenthash = "ad2dc0d500c2ff5e0e73ec480e657f7a7222816d" version = "1.0.0beta0" githash = "19bb792c49b847e492052377ab80d027cd05427d"></release>
     <release parenthash = "8f26471dc1a5f2161a075768845253fe9d32a767" version = "1.0.0beta1" githash = "d7486c66be199b3d09edb7103996ad501ba78c14"></release>
     <release parenthash = "97e6e25f7ba7ff446bf91e56d0beb9766897ea98" version = "1.0.0rc0" githash = "416b8eb0cafaaa7f0baecbd3c47616df55f215db"></release>
-    <release parenthash = "e5514b3851217fed2595ddd246136eacf58fff80" version = "1.1.0rc0"></release>
+    <release parenthash = "e5514b3851217fed2595ddd246136eacf58fff80" version = "1.1.0rc0" githash = "833eb776e449ed70cc39c840b7f0240b2d310c4f"></release>
     <scope>example</scope>
     <subpartnumber>XM-000706-SM</subpartnumber>
     <vendor>XMOS</vendor>
