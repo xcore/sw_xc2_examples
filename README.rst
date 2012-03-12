@@ -1,12 +1,9 @@
 XC-2 Examples
 .............
 
-:Latest release: 1.1.0rc0
+:Latest release: 1.1.0rc1
 :Maintainer: davelxmos
 :Description: Code examples for the XC-2 development board.
-
-
-
 
 
 Key Features
